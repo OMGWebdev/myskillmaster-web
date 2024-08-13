@@ -7,7 +7,7 @@
         @submit.prevent="submit"
       >
         <div class="login-form__header screen-border">
-          <h4>Sign in {{ $store.getters['appName'] }}</h4>
+          <h4>Please Sign in {{ $store.getters['appName'] }}</h4>
         </div>
 
         <div class="login-form__fields screen-border">

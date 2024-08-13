@@ -1,0 +1,462 @@
+[
+  {
+    "name": "accounts",
+    "path": "/accounts",
+    "component": "/workspaces/myskillmaster-web/pages/accounts.vue",
+    "chunkName": "pages/accounts",
+    "url": "/accounts",
+    "_name": "_55d2e5bc"
+  },
+  {
+    "path": "/add-a-lesson",
+    "component": "/workspaces/myskillmaster-web/pages/add-a-lesson.vue",
+    "chunkName": "pages/add-a-lesson",
+    "children": [
+      {
+        "name": "add-a-lesson",
+        "path": "",
+        "component": "/workspaces/myskillmaster-web/pages/add-a-lesson/index.vue",
+        "chunkName": "pages/add-a-lesson/index",
+        "url": "/add-a-lesson",
+        "_name": "_c7ed20e2"
+      },
+      {
+        "name": "add-a-lesson-create",
+        "path": "create",
+        "component": "/workspaces/myskillmaster-web/pages/add-a-lesson/create.vue",
+        "chunkName": "pages/add-a-lesson/create",
+        "url": "/add-a-lesson/create",
+        "_name": "_0cd8cd0f"
+      },
+      {
+        "name": "add-a-lesson-success",
+        "path": "success",
+        "component": "/workspaces/myskillmaster-web/pages/add-a-lesson/success.vue",
+        "chunkName": "pages/add-a-lesson/success",
+        "url": "/add-a-lesson/success",
+        "_name": "_62b3d100"
+      }
+    ],
+    "_name": "_0e33a20c"
+  },
+  {
+    "name": "change-password",
+    "path": "/change-password",
+    "component": "/workspaces/myskillmaster-web/pages/change-password.vue",
+    "chunkName": "pages/change-password",
+    "url": "/change-password",
+    "_name": "_8e6556e8"
+  },
+  {
+    "name": "forgot-password",
+    "path": "/forgot-password",
+    "component": "/workspaces/myskillmaster-web/pages/forgot-password.vue",
+    "chunkName": "pages/forgot-password",
+    "url": "/forgot-password",
+    "_name": "_8623100e"
+  },
+  {
+    "name": "go-pro",
+    "path": "/go-pro",
+    "component": "/workspaces/myskillmaster-web/pages/go-pro/index.vue",
+    "chunkName": "pages/go-pro/index",
+    "url": "/go-pro",
+    "_name": "_2cc485f2"
+  },
+  {
+    "name": "login",
+    "path": "/login",
+    "component": "/workspaces/myskillmaster-web/pages/login.vue",
+    "chunkName": "pages/login",
+    "url": "/login",
+    "_name": "_ea4b7346"
+  },
+  {
+    "name": "my-lessons",
+    "path": "/my-lessons",
+    "component": "/workspaces/myskillmaster-web/pages/my-lessons/index.vue",
+    "chunkName": "pages/my-lessons/index",
+    "url": "/my-lessons",
+    "_name": "_c107294e"
+  },
+  {
+    "path": "/onboarding",
+    "component": "/workspaces/myskillmaster-web/pages/onboarding.vue",
+    "chunkName": "pages/onboarding",
+    "children": [
+      {
+        "name": "onboarding",
+        "path": "",
+        "component": "/workspaces/myskillmaster-web/pages/onboarding/index.vue",
+        "chunkName": "pages/onboarding/index",
+        "url": "/onboarding",
+        "_name": "_e299d5cc"
+      },
+      {
+        "name": "onboarding-become-a-master",
+        "path": "become-a-master",
+        "component": "/workspaces/myskillmaster-web/pages/onboarding/become-a-master.vue",
+        "chunkName": "pages/onboarding/become-a-master",
+        "url": "/onboarding/become-a-master",
+        "_name": "_37243448"
+      },
+      {
+        "name": "onboarding-master-profile",
+        "path": "master-profile",
+        "component": "/workspaces/myskillmaster-web/pages/onboarding/master-profile.vue",
+        "chunkName": "pages/onboarding/master-profile",
+        "url": "/onboarding/master-profile",
+        "_name": "_cfa1e7b4"
+      },
+      {
+        "name": "onboarding-subscribe",
+        "path": "subscribe",
+        "component": "/workspaces/myskillmaster-web/pages/onboarding/subscribe/index.vue",
+        "chunkName": "pages/onboarding/subscribe/index",
+        "url": "/onboarding/subscribe",
+        "_name": "_b702f2d6"
+      },
+      {
+        "name": "onboarding-subscribe-slug",
+        "path": "subscribe/:slug",
+        "component": "/workspaces/myskillmaster-web/pages/onboarding/subscribe/_slug/index.vue",
+        "chunkName": "pages/onboarding/subscribe/_slug/index",
+        "_name": "_21947e10"
+      }
+    ],
+    "_name": "_d781e852"
+  },
+  {
+    "name": "past-lessons",
+    "path": "/past-lessons",
+    "component": "/workspaces/myskillmaster-web/pages/past-lessons/index.vue",
+    "chunkName": "pages/past-lessons/index",
+    "url": "/past-lessons",
+    "_name": "_728d4982"
+  },
+  {
+    "name": "privacy-policy",
+    "path": "/privacy-policy",
+    "component": "/workspaces/myskillmaster-web/pages/privacy-policy.vue",
+    "chunkName": "pages/privacy-policy",
+    "url": "/privacy-policy",
+    "_name": "_532068d3"
+  },
+  {
+    "name": "search",
+    "path": "/search",
+    "component": "/workspaces/myskillmaster-web/pages/search.vue",
+    "chunkName": "pages/search",
+    "url": "/search",
+    "_name": "_10e09ee4"
+  },
+  {
+    "path": "/settings",
+    "component": "/workspaces/myskillmaster-web/pages/settings.vue",
+    "chunkName": "pages/settings",
+    "children": [
+      {
+        "name": "settings",
+        "path": "",
+        "component": "/workspaces/myskillmaster-web/pages/settings/index.vue",
+        "chunkName": "pages/settings/index",
+        "url": "/settings",
+        "_name": "_4abcca22"
+      },
+      {
+        "name": "settings-master-profile",
+        "path": "master-profile",
+        "component": "/workspaces/myskillmaster-web/pages/settings/master-profile.vue",
+        "chunkName": "pages/settings/master-profile",
+        "url": "/settings/master-profile",
+        "_name": "_34e6ffc4"
+      },
+      {
+        "name": "settings-my-interests",
+        "path": "my-interests",
+        "component": "/workspaces/myskillmaster-web/pages/settings/my-interests.vue",
+        "chunkName": "pages/settings/my-interests",
+        "url": "/settings/my-interests",
+        "_name": "_7ce35f88"
+      },
+      {
+        "name": "settings-payment-details",
+        "path": "payment-details",
+        "component": "/workspaces/myskillmaster-web/pages/settings/payment-details.vue",
+        "chunkName": "pages/settings/payment-details",
+        "url": "/settings/payment-details",
+        "_name": "_27a1804b"
+      },
+      {
+        "name": "settings-payout-details",
+        "path": "payout-details",
+        "component": "/workspaces/myskillmaster-web/pages/settings/payout-details.vue",
+        "chunkName": "pages/settings/payout-details",
+        "url": "/settings/payout-details",
+        "_name": "_3289617b"
+      }
+    ],
+    "_name": "_9a51b242"
+  },
+  {
+    "path": "/sign-up",
+    "component": "/workspaces/myskillmaster-web/pages/sign-up.vue",
+    "chunkName": "pages/sign-up",
+    "children": [
+      {
+        "name": "sign-up",
+        "path": "",
+        "component": "/workspaces/myskillmaster-web/pages/sign-up/index.vue",
+        "chunkName": "pages/sign-up/index",
+        "url": "/sign-up",
+        "_name": "_da08523c"
+      },
+      {
+        "name": "sign-up-details",
+        "path": "details",
+        "component": "/workspaces/myskillmaster-web/pages/sign-up/details.vue",
+        "chunkName": "pages/sign-up/details",
+        "url": "/sign-up/details",
+        "_name": "_391c2a52"
+      }
+    ],
+    "_name": "_b0e278c2"
+  },
+  {
+    "name": "subscription-tier",
+    "path": "/subscription-tier",
+    "component": "/workspaces/myskillmaster-web/pages/subscription-tier.vue",
+    "chunkName": "pages/subscription-tier",
+    "url": "/subscription-tier",
+    "_name": "_b3f915f4"
+  },
+  {
+    "name": "terms-and-conditions",
+    "path": "/terms-and-conditions",
+    "component": "/workspaces/myskillmaster-web/pages/terms-and-conditions.vue",
+    "chunkName": "pages/terms-and-conditions",
+    "url": "/terms-and-conditions",
+    "_name": "_2660b5b0"
+  },
+  {
+    "name": "verify",
+    "path": "/verify",
+    "component": "/workspaces/myskillmaster-web/pages/verify.vue",
+    "chunkName": "pages/verify",
+    "url": "/verify",
+    "_name": "_04b21d96"
+  },
+  {
+    "name": "dev-components",
+    "path": "/dev/components",
+    "component": "/workspaces/myskillmaster-web/pages/dev/components.vue",
+    "chunkName": "pages/dev/components",
+    "url": "/dev/components",
+    "_name": "_41d5bae8"
+  },
+  {
+    "name": "dev-typography",
+    "path": "/dev/typography",
+    "component": "/workspaces/myskillmaster-web/pages/dev/typography.vue",
+    "chunkName": "pages/dev/typography",
+    "url": "/dev/typography",
+    "_name": "_17066025"
+  },
+  {
+    "path": "/my-lessons/to-learn/:reference_code",
+    "component": "/workspaces/myskillmaster-web/pages/my-lessons/to-learn/_reference_code.vue",
+    "chunkName": "pages/my-lessons/to-learn/_reference_code",
+    "children": [
+      {
+        "name": "my-lessons-to-learn-reference_code",
+        "path": "",
+        "component": "/workspaces/myskillmaster-web/pages/my-lessons/to-learn/_reference_code/index.vue",
+        "chunkName": "pages/my-lessons/to-learn/_reference_code/index",
+        "_name": "_763c262f"
+      },
+      {
+        "name": "my-lessons-to-learn-reference_code-cancel",
+        "path": "cancel",
+        "component": "/workspaces/myskillmaster-web/pages/my-lessons/to-learn/_reference_code/cancel.vue",
+        "chunkName": "pages/my-lessons/to-learn/_reference_code/cancel",
+        "_name": "_d01aee26"
+      },
+      {
+        "name": "my-lessons-to-learn-reference_code-reschedule",
+        "path": "reschedule",
+        "component": "/workspaces/myskillmaster-web/pages/my-lessons/to-learn/_reference_code/reschedule.vue",
+        "chunkName": "pages/my-lessons/to-learn/_reference_code/reschedule",
+        "_name": "_694f0abd"
+      }
+    ],
+    "_name": "_57dbd0ac"
+  },
+  {
+    "path": "/my-lessons/to-rate/:reference_code",
+    "component": "/workspaces/myskillmaster-web/pages/my-lessons/to-rate/_reference_code.vue",
+    "chunkName": "pages/my-lessons/to-rate/_reference_code",
+    "children": [
+      {
+        "name": "my-lessons-to-rate-reference_code",
+        "path": "",
+        "component": "/workspaces/myskillmaster-web/pages/my-lessons/to-rate/_reference_code/index.vue",
+        "chunkName": "pages/my-lessons/to-rate/_reference_code/index",
+        "_name": "_6889a6a6"
+      },
+      {
+        "name": "my-lessons-to-rate-reference_code-success",
+        "path": "success",
+        "component": "/workspaces/myskillmaster-web/pages/my-lessons/to-rate/_reference_code/success.vue",
+        "chunkName": "pages/my-lessons/to-rate/_reference_code/success",
+        "_name": "_6ceabe9e"
+      }
+    ],
+    "_name": "_60c90daa"
+  },
+  {
+    "path": "/my-lessons/to-teach/:scheduleId",
+    "component": "/workspaces/myskillmaster-web/pages/my-lessons/to-teach/_scheduleId.vue",
+    "chunkName": "pages/my-lessons/to-teach/_scheduleId",
+    "children": [
+      {
+        "name": "my-lessons-to-teach-scheduleId",
+        "path": "",
+        "component": "/workspaces/myskillmaster-web/pages/my-lessons/to-teach/_scheduleId/index.vue",
+        "chunkName": "pages/my-lessons/to-teach/_scheduleId/index",
+        "_name": "_ffac5cde"
+      },
+      {
+        "name": "my-lessons-to-teach-scheduleId-cancel",
+        "path": "cancel",
+        "component": "/workspaces/myskillmaster-web/pages/my-lessons/to-teach/_scheduleId/cancel.vue",
+        "chunkName": "pages/my-lessons/to-teach/_scheduleId/cancel",
+        "_name": "_688b6c6a"
+      },
+      {
+        "name": "my-lessons-to-teach-scheduleId-reschedule",
+        "path": "reschedule",
+        "component": "/workspaces/myskillmaster-web/pages/my-lessons/to-teach/_scheduleId/reschedule.vue",
+        "chunkName": "pages/my-lessons/to-teach/_scheduleId/reschedule",
+        "_name": "_0121a6ca"
+      }
+    ],
+    "_name": "_22be2d8e"
+  },
+  {
+    "path": "/past-lessons/master/:scheduleId",
+    "component": "/workspaces/myskillmaster-web/pages/past-lessons/master/_scheduleId.vue",
+    "chunkName": "pages/past-lessons/master/_scheduleId",
+    "children": [
+      {
+        "name": "past-lessons-master-scheduleId",
+        "path": "",
+        "component": "/workspaces/myskillmaster-web/pages/past-lessons/master/_scheduleId/index.vue",
+        "chunkName": "pages/past-lessons/master/_scheduleId/index",
+        "_name": "_93ebbaac"
+      }
+    ],
+    "_name": "_d1d8f532"
+  },
+  {
+    "path": "/past-lessons/student/:reference_code",
+    "component": "/workspaces/myskillmaster-web/pages/past-lessons/student/_reference_code.vue",
+    "chunkName": "pages/past-lessons/student/_reference_code",
+    "children": [
+      {
+        "name": "past-lessons-student-reference_code",
+        "path": "",
+        "component": "/workspaces/myskillmaster-web/pages/past-lessons/student/_reference_code/index.vue",
+        "chunkName": "pages/past-lessons/student/_reference_code/index",
+        "_name": "_397a1e9c"
+      }
+    ],
+    "_name": "_7d63ded9"
+  },
+  {
+    "name": "go-pro-slug",
+    "path": "/go-pro/:slug",
+    "component": "/workspaces/myskillmaster-web/pages/go-pro/_slug/index.vue",
+    "chunkName": "pages/go-pro/_slug/index",
+    "_name": "_1b0cd1fc"
+  },
+  {
+    "path": "/lessons/:slug?",
+    "component": "/workspaces/myskillmaster-web/pages/lessons/_slug.vue",
+    "chunkName": "pages/lessons/_slug",
+    "children": [
+      {
+        "name": "lessons-slug",
+        "path": "",
+        "component": "/workspaces/myskillmaster-web/pages/lessons/_slug/index.vue",
+        "chunkName": "pages/lessons/_slug/index",
+        "_name": "_243453a6"
+      },
+      {
+        "name": "lessons-slug-edit",
+        "path": "edit",
+        "component": "/workspaces/myskillmaster-web/pages/lessons/_slug/edit.vue",
+        "chunkName": "pages/lessons/_slug/edit",
+        "_name": "_3f5c537f"
+      },
+      {
+        "path": "enroll",
+        "component": "/workspaces/myskillmaster-web/pages/lessons/_slug/enroll.vue",
+        "chunkName": "pages/lessons/_slug/enroll",
+        "children": [
+          {
+            "name": "lessons-slug-enroll",
+            "path": "",
+            "component": "/workspaces/myskillmaster-web/pages/lessons/_slug/enroll/index.vue",
+            "chunkName": "pages/lessons/_slug/enroll/index",
+            "_name": "_3ceafb1e"
+          },
+          {
+            "name": "lessons-slug-enroll-payment",
+            "path": "payment",
+            "component": "/workspaces/myskillmaster-web/pages/lessons/_slug/enroll/payment.vue",
+            "chunkName": "pages/lessons/_slug/enroll/payment",
+            "_name": "_4128ed52"
+          },
+          {
+            "name": "lessons-slug-enroll-price",
+            "path": "price",
+            "component": "/workspaces/myskillmaster-web/pages/lessons/_slug/enroll/price.vue",
+            "chunkName": "pages/lessons/_slug/enroll/price",
+            "_name": "_234f1fd6"
+          },
+          {
+            "name": "lessons-slug-enroll-success",
+            "path": "success",
+            "component": "/workspaces/myskillmaster-web/pages/lessons/_slug/enroll/success.vue",
+            "chunkName": "pages/lessons/_slug/enroll/success",
+            "_name": "_5160b4cf"
+          },
+          {
+            "name": "lessons-slug-enroll-to-learn",
+            "path": "to-learn",
+            "component": "/workspaces/myskillmaster-web/pages/lessons/_slug/enroll/to-learn.vue",
+            "chunkName": "pages/lessons/_slug/enroll/to-learn",
+            "_name": "_5d758cd6"
+          }
+        ],
+        "_name": "_a866764a"
+      },
+      {
+        "name": "lessons-slug-report",
+        "path": "report",
+        "component": "/workspaces/myskillmaster-web/pages/lessons/_slug/report.vue",
+        "chunkName": "pages/lessons/_slug/report",
+        "_name": "_180b1269"
+      }
+    ],
+    "_name": "_7c90d72a"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/workspaces/myskillmaster-web/pages/index.vue",
+    "chunkName": "pages/index",
+    "url": "/",
+    "_name": "_7d9ab974"
+  }
+]

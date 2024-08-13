@@ -54,9 +54,13 @@ export const actions = {
       commit('clearList')
 
       const { data } = await this.$axios.get('user/plans')
+      if (data.data.result === true) {
+        return
+      }
       commit('setList', data.data)
     } catch (error) {
-      commit('setFormErrors', { form: 'listing', response: error })
+      console.log(error)
+      commit('setFormErrors', { form: 'listing', response: true })
     } finally {
       commit('setFormBusy', { form: 'listing', status: false })
     }
