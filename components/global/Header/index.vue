@@ -209,6 +209,7 @@ export default {
 .position-fixed{
   background: #fff;
   position: fixed;
+  top:0;
 }
 
 @media (max-width: map-get($grid-breakpoints, 'md')) {
