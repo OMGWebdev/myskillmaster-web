@@ -44,10 +44,10 @@ export default {
           title: 'Payment details',
           link: 'settings-payment-details'
         },
-        {
-          title: 'Payout details',
-          link: 'settings-payout-details'
-        },
+        // {
+        //   title: 'Payout details',
+        //   link: 'settings-payout-details'
+        // },
         {
           title: 'Delete account',
           action: this.toggleDeleteAccountModal,

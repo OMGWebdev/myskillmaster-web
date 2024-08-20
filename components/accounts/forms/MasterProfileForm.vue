@@ -272,10 +272,13 @@ export default {
                 )
 
                 if (this.redirect) {
+                  // this.$router.push({
+                  //   name: this.redirect,
+                  //   params: this.redirectParams,
+                  //   query: this.redirectQuery
+                  // })
                   this.$router.push({
-                    name: this.redirect,
-                    params: this.redirectParams,
-                    query: this.redirectQuery
+                    name: 'add-a-lesson-create'
                   })
                 }
               } else {
