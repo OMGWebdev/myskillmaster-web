@@ -91,7 +91,12 @@ export default {
     AccountButton
   },
   mixins: [NavigationMixin],
-
+  data() {
+    return {
+      headerAdditionalClass: '',
+      isFixed: false
+    }
+  },
   computed: {
     ...mapGetters({
       isLoggedIn: 'user/isLoggedIn',
@@ -109,7 +114,9 @@ export default {
       if (SETTINGS.layout.pagesStartAtTop.includes(routeName)) {
         classes.push('header--transparent')
       }
-
+      if (this.isFixed) {
+        classes.push('position-fixed')
+      }
       return classes.join(' ')
     },
 
@@ -124,6 +131,17 @@ export default {
     showSearchbar() {
       return !['index'].includes(this.$route.name)
     }
+  },
+  mounted() {
+    window.addEventListener('scroll', () => {
+      const currentScrollPosition = document.documentElement.scrollTop
+      if (currentScrollPosition > 100) {
+        this.headerAdditionalClass = 'position-fixed'
+        this.isFixed = true
+      } else {
+        this.isFixed = false
+      }
+    })
   }
 }
 </script>
@@ -187,6 +205,10 @@ export default {
 .header--transparent {
   background-color: transparent;
   border-bottom: none;
+}
+.position-fixed{
+  background: #fff;
+  position: fixed;
 }
 
 @media (max-width: map-get($grid-breakpoints, 'md')) {
