@@ -11,7 +11,7 @@
           name: 'onboarding',
         }"
       >
-        Complete Profile
+        Become a Master
       </v-btn>
     </div>
   </div>
