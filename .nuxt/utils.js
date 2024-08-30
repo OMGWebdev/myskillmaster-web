@@ -200,7 +200,7 @@ export async function setContext (app, context) {
       payload: context.payload,
       error: context.error,
       base: app.router.options.base,
-      env: {"appName":"myskillmaster","apiUrl":"https://api.myskillmaster.com/api/v1/","baseUrl":"localhost:3000","isDev":false,"googlePlacesApiKey":"","stripePublishableKey":"pk_test_51Ni5WuHzz5BV9kgxWsec8xhCBtMu1moD0lePD4FV3cPS3QEay8ENe9QexMMNqrFgsPcnYYbvuXoHLR15jsNSboo2002POhGUFF"}
+      env: {"appName":"myskillmaster","apiUrl":"https://api.myskillmaster.com/api/v1/","baseUrl":"localhost:3000","isDev":false,"googlePlacesApiKey":"","stripePublishableKey":"pk_live_51MYkFME1uenK5vsDAxPmd666fxAIHLFqegZRy40nf2erANmZfG8mOkATUaJaDLzjiCqrXXlJTjvUzaIsvLT5CF7y00gglijS8k"}
     }
     // Only set once
 

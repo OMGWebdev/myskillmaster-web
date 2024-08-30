@@ -146,13 +146,6 @@ export default {
           }
         },
         {
-          title: this.user.is_subscribed ? 'Subscription Tier' : 'Go Pro',
-          action: () =>
-            this.goToPage(
-              this.user.is_subscribed ? 'subscription-tier' : 'go-pro'
-            )
-        },
-        {
           title: 'Accounts',
           menu: [
             {

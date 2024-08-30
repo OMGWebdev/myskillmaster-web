@@ -19,6 +19,13 @@
             contain
           />
         </NuxtLink>
+        <div v-if="isLoggedIn" class="lg-hidden">
+          <div class="mobile-header">
+            <v-btn v-if="user.has_master_profile && $route.name !== 'add-a-lesson-create'" color="primary" to="/add-a-lesson/create">
+              Create a Lesson
+            </v-btn>
+          </div>
+        </div>
         <Searchbar
           v-if="showSearchbar"
           class="header__appbar__searchbar"
@@ -153,7 +160,9 @@ export default {
   border-bottom: 1px solid $border-color;
   background-color: #ffffff;
   z-index: 100;
-
+  .lg-hidden{
+      display: none;
+  }
   &__border,
   &__appbar {
     background-color: inherit !important;
@@ -215,10 +224,17 @@ export default {
 @media (max-width: map-get($grid-breakpoints, 'md')) {
   .header {
     height: $header-mobile-height;
+    .mobile-header a {
+      padding: 8px;
+      font-size: 12px;
+      margin-left: 15px;
+      height: unset;
+      min-height: unset;
+    }
 
     &__appbar {
       ::v-deep .v-toolbar__content {
-        justify-content: center;
+        justify-content: end;
       }
 
       &__searchbar {
@@ -235,6 +251,9 @@ export default {
 
       &__avatar {
         display: none;
+      }
+      .lg-hidden{
+        display: block;
       }
 
     &__btn-container {
