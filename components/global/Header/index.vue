@@ -234,7 +234,7 @@ export default {
 
     &__appbar {
       ::v-deep .v-toolbar__content {
-        justify-content: end;
+        justify-content: space-between;
       }
 
       &__searchbar {
@@ -247,6 +247,7 @@ export default {
 
       &__logo {
         width: 145px;
+        margin-left: 35px;
       }
 
       &__avatar {
